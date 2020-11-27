@@ -101,10 +101,6 @@ export class ProgrammingExerciseDetailComponent implements OnInit, OnDestroy {
         );
     }
 
-    previousState() {
-        window.history.back();
-    }
-
     /**
      * Returns the route for editing the exercise. Exam and course exercises have different routes.
      */
